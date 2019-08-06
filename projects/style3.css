@@ -1,0 +1,201 @@
+/* The block below styles the logo */
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* The block below styles the site navigation bars */
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row;
+    /* font-style: oblique; */
+    color: black;
+    font-family: 'Teko';
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
+/* The block below makes it so when we hover on nav buttons, they turn tranparent */
+
+#navOptions:hover {
+    color: white;
+    opacity: 0.3;
+}
+
+
+/* The block below styles our page links */
+
+a {
+    color: black;
+    text-decoration: none;
+    /* This removes underlines from any of our linkss */
+}
+
+
+/* This block styles our search form */
+
+#form {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    width: 50%;
+}
+
+
+/* This styles the placeholder text in the our forms*/
+
+input::placeholder {
+    font-family: 'Teko';
+}
+
+
+/*This makes it so whatver the user types is in our chosen text*/
+
+input[type=text] {
+    font-family: 'Teko';
+}
+
+
+/* This styles our login button */
+
+#login {
+    font-family: 'Teko';
+}
+
+
+/* COLLAPSIBLE STUFF BELOW */
+
+#collapsibleOne {
+    background-color: white;
+    color: black;
+    font-family: 'Teko';
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 40px;
+    border: 1px solid black;
+    width: 25%;
+    text-align: left;
+    outline: none;
+}
+
+#collapsibleOne:hover {
+    background-color: black;
+    color: white;
+}
+
+#contentOne {
+    display: none;
+    font-family: 'Abel';
+    /* font-size: 20px; */
+}
+
+
+/* Style the second collapsible */
+
+#collapsibleTwo {
+    background-color: white;
+    color: black;
+    font-family: 'Teko';
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 40px;
+    border: 1px solid black;
+    width: 25%;
+    text-align: left;
+    outline: none;
+}
+
+
+/* This styles the collapsible as a button */
+
+#collapsibleTwo:hover {
+    background-color: black;
+    color: white;
+}
+
+#contentTwo {
+    display: none;
+    font-family: 'Abel';
+}
+
+
+/* Style the THIRD collapsible, you extravagant boi */
+
+#collapsibleThree {
+    background-color: white;
+    color: black;
+    font-family: 'Teko';
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 40px;
+    border: 1px solid black;
+    width: 25%;
+    text-align: left;
+    outline: none;
+}
+
+
+/* This styles the collapsible as a button */
+
+#collapsibleThree:hover {
+    background-color: black;
+    color: white;
+}
+
+#contentThree {
+    display: none;
+    font-family: 'Abel';
+}
+
+
+/* Now let's style the tables inside our collapsibles */
+
+
+/* I used the Try It Editor v3.6 from W3 schools ("https://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy") to make these tables, and then copied my code into this */
+
+#data {
+    font-family: 'Teko';
+    border-collapse: collapse;
+    width: 42.8%;
+}
+
+#data td,
+#data th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#data th {
+    border: 1px solid black;
+    /* background-color: #ddd; */
+}
+
+
+/* #data tr:nth-child(odd) {
+    background-color: #f2f2f2;
+} */
+
+
+/*This makes it so every odd numbered data cell has a darker background color. We could change it to even if we wanted to. Cool right?? */
+
+#data td:hover {
+    background-color: #ddd;
+}
+
+#data th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: #ddd;
+    color: black;
+}

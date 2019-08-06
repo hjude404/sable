@@ -1,0 +1,132 @@
+/* This styles the logo */
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* This styles our image on the ourStory page */
+
+#storyImg {
+    justify-content: center;
+}
+
+
+/* This styles the site navigation bars */
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row;
+    /* font-style: oblique; */
+    color: black;
+    font-family: 'Teko';
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
+/* Style the horizontal line */
+
+hr {
+    width: 50%;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* This styles the placeholder text in our search bar */
+
+input::placeholder {
+    font-family: 'Teko';
+}
+
+
+/*This makes it so whatver the user types is in our chosen font*/
+
+input[type=text] {
+    font-family: 'Teko';
+}
+
+
+/* This styles our login button */
+
+#login {
+    font-family: 'Teko';
+}
+
+
+/* This makes it so when we hover on nav buttons, they turn tranparent */
+
+#navOptions:hover {
+    color: white;
+    opacity: 0.3;
+}
+
+
+/* This is the title of our text */
+
+#divOne {
+    display: inline-block;
+    width: 500px;
+}
+
+#dreamsTag {
+    display: flex;
+    /* justify-content: flex-start; */
+    font-family: 'Teko';
+    text-decoration: underline;
+    font-size: 25px;
+    padding-left: 80px;
+}
+
+.contents {
+    padding-left: 80px;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Teko';
+    word-wrap: break-word;
+    /*This wraps our text */
+    justify-content: flex-start;
+}
+
+
+/* This is the mission section */
+
+#divTwo {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* This is our seocnd block of text */
+
+#mission {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Teko';
+    font-size: 25px;
+    text-decoration: underline;
+    padding-left: 80px;
+}
+
+
+/* #missionText {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-family: 'Teko';
+} */
+
+
+/* This styles our links, or "a" tag */
+
+a {
+    color: black;
+    text-decoration: none;
+    /* This removes underlines from any of our links */
+}

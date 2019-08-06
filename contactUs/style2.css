@@ -1,0 +1,84 @@
+/* This styles the logo */
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* This styles the site navigation bars */
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row;
+    /* font-style: oblique; */
+    color: black;
+    font-family: 'Teko';
+    font-size: 22px;
+}
+
+
+/* This makes it so when we hover on nav buttons, they turn tranparent */
+
+#navOptions:hover {
+    color: white;
+    opacity: 0.3;
+}
+
+
+/* Style the search form */
+
+#form {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* This styles the placeholder text in our search bar */
+
+input::placeholder {
+    font-family: 'Teko';
+}
+
+
+/*This makes it so whatver the user types is in our chosen font*/
+
+input[type=text] {
+    font-family: 'Teko';
+}
+
+hr {
+    width: 50%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    /* This removes underlines from any of our linkss */
+}
+
+
+/* This styles our login button */
+
+#login {
+    font-family: 'Teko';
+}
+
+
+/* This styles the title of our contact info block */
+
+#pOne {
+    font-size: 25px;
+    font-family: 'Teko';
+    text-decoration: underline;
+    padding-left: 80px;
+}
+
+
+/*This styles each "contactInfo" line */
+
+#contactInfo {
+    font-size: 20px;
+    font-family: 'Teko';
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" <!-- Here are the fonts you can use: https://fonts.google.com/ -->
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Teko' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+
+
+
+    <title>SABRE</title>
+</head>
+
+<body>
+
+
+    <div id="logo">
+        <a href="../homePage/index.html"><img id="sabre" src="images/sabre.png" width=300 height=160></a>
+    </div>
+    <br>
+    <br>
+    <div class="nav">
+        <div id="navOptions"><a href="../homePage/index.html">HOME</a></div>
+        <div id="navOptions"><a href="../ourStory/index.html">OUR STORY</a></div>
+        <div id="navOptions"><a href="../projects/index.html">PROJECTS</a></div>
+        <div id="navOptions"><a href="../contactUs/index.html">CONTACT US</a></div>
+
+    </div>
+    <br>
+    <br>
+    <form action="/action_page.php" id="form">
+        <input type="text" placeholder="Username" name="username">
+        <input id="pw" type="password" placeholder="Password" name="password">
+        <button type="submit" id="login">Login</button>
+        <input id="showpw" type="checkbox" onclick="pwFunction()">Show Password
+    </form>
+    <br>
+    <br>
+    <!-- This is our search bar -->
+    <form id="form">
+        <input type="text" placeholder="Check out our projects." name="search">
+
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <!-- Below are collapsible button and div elements holding information for each Model -->
+    <!-- This is the collapsible for Model 1 info -->
+    <button id="collapsibleOne" class="button">Model 1</button>
+    <div id="contentOne">
+        <table id="data">
+            <tr>
+                <th>Technical Designation</th>
+                <td>S-M1</td>
+                <!-- <td>_TBD_</td>
+                <td>_TBD_</td> -->
+
+            </tr>
+            <tr>
+                <th>Panel Type</th>
+                <td>Polycarbonate</td>
+                <!-- <td>_TBD_</td>
+                <td>_TBD_</td> -->
+
+            </tr>
+            <tr>
+                <th>_TBD_</th>
+                <td>_TBD_</td>
+            </tr>
+            <tr>
+                <th>_TBD_</th>
+                <td>_TBD_</td>
+            </tr>
+            <tr>
+                <th>_TBD_</th>
+                <td>_TBD_</td>
+            </tr>
+            <tr>
+                <th>_TBD_</th>
+                <td>_TBD_</td>
+            </tr>
+            <tr>
+                <th>_TBD_</th>
+                <td>_TBD_</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+
+    <!-- This is the collapsible for Model 2 info -->
+    <button id="collapsibleTwo" class="button">Model 2</button>
+    <div id="contentTwo">
+        <table id="data">
+            <tr>
+                <th>Technical Designation</th>
+                <td>S-M2</td>
+                <!-- <th>_TBD_</th>
+                <th>_TBD_</th> -->
+
+            </tr>
+
+            <tr>
+                <th>Panel Type</th>
+                <td>Polycarbonate</td>
+                <!-- <td>_TBD_</td>
+                <td>_TBD_</td> -->
+
+            </tr>
+            <tr>
+                <th>_TBD_</th>
+                <td>_TBD_</td>
+            </tr>
+            <tr>
+                <th>_TBD_</th>
+                <td>_TBD_</td>
+            </tr>
+            <tr>
+                <th>_TBD_</th>
+                <td>_TBD_</td>
+            </tr>
+            <tr>
+                <th>_TBD_</th>
+                <td>_TBD_</td>
+            </tr>
+            <tr>
+                <th>_TBD_</th>
+                <td>_TBD_</td>
+            </tr>
+
+        </table>
+    </div>
+    <br>
+    <!-- This is the collpasible for Model 3 info -->
+    <button id="collapsibleThree" class="button">Model 3</button>
+    <div id="contentThree">
+        <table id="data">
+            <tr>
+                <th>Technical Designation</th>
+                <td>S-M3</td>
+                <!-- <th>_TBD_</th>
+                <th>_TBD_</th> -->
+            </tr>
+            <tr>
+                <th>Panel Type</th>
+                <td>Polycarbonate</td>
+                <!-- <td>_TBD_</td>
+                <td>_TBD_</td> -->
+
+            </tr>
+            <tr>
+                <th>_TBD_</th>
+                <td>_TBD_</td>
+            </tr>
+            <tr>
+                <th>_TBD_</th>
+                <td>_TBD_</td>
+            </tr>
+            <tr>
+                <th>_TBD_</th>
+                <td>_TBD_</td>
+            </tr>
+            <tr>
+                <th>_TBD_</th>
+                <td>_TBD_</td>
+            </tr>
+            <tr>
+                <th>_TBD_</th>
+                <td>_TBD_</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- You wanna know why your collapsible wasn't working for hours? BECAUSE YOU DIDN'T LINK TO THE JAVASCRIPT FILE -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
