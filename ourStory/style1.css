@@ -22,7 +22,7 @@
     /* font-style: oblique; */
     color: black;
     font-family: 'Teko';
-    font-size: 22px;
+    font-size: 25px;
     text-decoration: none;
 }
 
@@ -73,54 +73,27 @@ input[type=text] {
 #divOne {
     display: inline-block;
     width: 500px;
+    justify-content: center;
 }
 
 #dreamsTag {
     display: flex;
-    /* justify-content: flex-start; */
+    justify-content: center;
     font-family: 'Teko';
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: 25px;
     padding-left: 80px;
 }
 
 .contents {
-    padding-left: 80px;
     display: flex;
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Teko';
     word-wrap: break-word;
     /*This wraps our text */
-    justify-content: flex-start;
-}
-
-
-/* This is the mission section */
-
-#divTwo {
-    display: inline-block;
-    vertical-align: top;
-}
-
-
-/* This is our seocnd block of text */
-
-#mission {
-    display: flex;
-    justify-content: flex-start;
-    font-family: 'Teko';
-    font-size: 25px;
-    text-decoration: underline;
+    justify-content: center;
     padding-left: 80px;
 }
-
-
-/* #missionText {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 20px;
-    font-family: 'Teko';
-} */
 
 
 /* This styles our links, or "a" tag */

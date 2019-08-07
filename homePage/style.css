@@ -15,7 +15,7 @@
     /* font-style: oblique; */
     color: black;
     font-family: 'Teko';
-    font-size: 22px;
+    font-size: 25px;
     text-decoration: none;
 }
 
@@ -67,4 +67,12 @@ input[type=text] {
 
 #login {
     font-family: 'Teko';
+}
+
+
+/* Style the img */
+
+#storyImg {
+    display: flex;
+    justify-content: center;
 }
