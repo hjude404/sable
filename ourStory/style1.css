@@ -1,105 +1,113 @@
-/* This styles the logo */
-
-#logo {
-    display: flex;
-    justify-content: center;
-}
-
-
-/* This styles our image on the ourStory page */
-
-#storyImg {
-    justify-content: center;
-}
-
-
-/* This styles the site navigation bars */
-
-.nav {
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: row;
-    /* font-style: oblique; */
-    color: black;
-    font-family: 'Teko';
-    font-size: 25px;
-    text-decoration: none;
-}
-
-
-/* Style the horizontal line */
-
-hr {
-    width: 50%;
-}
-
-#form {
-    display: flex;
-    justify-content: center;
-}
-
-
-/* This styles the placeholder text in our search bar */
-
-input::placeholder {
-    font-family: 'Teko';
-}
-
-
-/*This makes it so whatver the user types is in our chosen font*/
-
-input[type=text] {
-    font-family: 'Teko';
-}
-
-
-/* This styles our login button */
-
-#login {
-    font-family: 'Teko';
-}
-
-
-/* This makes it so when we hover on nav buttons, they turn tranparent */
-
-#navOptions:hover {
-    color: white;
-    opacity: 0.3;
-}
-
-
-/* This is the title of our text */
-
-#divOne {
-    display: inline-block;
-    width: 500px;
-    justify-content: center;
-}
-
-#dreamsTag {
-    display: flex;
-    justify-content: center;
-    font-family: 'Teko';
-    /* text-decoration: underline; */
-    font-size: 25px;
-    padding-left: 80px;
-}
-
-.contents {
-    display: flex;
-    font-size: 22px;
-    font-family: 'Teko';
-    word-wrap: break-word;
-    /*This wraps our text */
-    justify-content: center;
-    padding-left: 80px;
-}
-
-
-/* This styles our links, or "a" tag */
-
-a {
-    color: black;
-    text-decoration: none;
-    /* This removes underlines from any of our links */
-}
+    /* This styles the logo */
+    
+    #logo {
+        display: flex;
+        justify-content: center;
+    }
+    /* This styles our image on the ourStory page */
+    
+    #storyImg {
+        justify-content: center;
+    }
+    /* This styles the site navigation bars */
+    
+    .nav {
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: row;
+        /* font-style: oblique; */
+        color: black;
+        font-family: 'Teko';
+        font-size: 25px;
+        text-decoration: none;
+    }
+    /* Style the horizontal line */
+    
+    hr {
+        width: 50%;
+    }
+    
+    #form {
+        display: flex;
+        justify-content: center;
+    }
+    /* This styles the placeholder text in our search bar */
+    
+    input::placeholder {
+        font-family: 'Teko';
+    }
+    /*This makes it so whatver the user types is in our chosen font*/
+    
+    input[type=text] {
+        font-family: 'Teko';
+    }
+    /* This styles our login button */
+    
+    #login {
+        font-family: 'Teko';
+    }
+    /* This makes it so when we hover on nav buttons, they turn tranparent */
+    
+    #navOptions:hover {
+        color: white;
+        opacity: 0.3;
+    }
+    /* This is the title of our text */
+    
+    #divOne {
+        margin: auto;
+        display: flex;
+        width: 500px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #tag {
+        display: flex;
+        justify-content: center;
+        font-family: 'Teko';
+        /* text-decoration: underline; */
+        font-size: 25px;
+        padding-left: 80px;
+    }
+    
+    .contents {
+        display: flex;
+        font-size: 22px;
+        font-family: 'Teko';
+        word-wrap: break-word;
+        /*This wraps our text */
+        justify-content: center;
+        padding-left: 80px;
+    }
+    /* This styles our links, or "a" tag */
+    
+    a {
+        color: black;
+        text-decoration: none;
+        /* This removes underlines from any of our links */
+    }
+    /* Style the "Meet the Team" section */
+    /* This ".nameDiv" block was taken from W3Schools ("https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_team") and adapted to fit this code. Yes I know what it does */
+    
+    .nameDiv {
+        /* float: left;
+        width: 33.3%; */
+        font-family: 'Teko';
+    }
+    
+    #storyImg {
+        margin: auto;
+    }
+    
+    #meetTeam {
+        text-align: center;
+        font-family: 'Teko';
+        font-size: 25px;
+        /* flex-direction: column; */
+    }
+    
+    #individuals {
+        display: flex;
+        justify-content: space-evenly;
+    }
