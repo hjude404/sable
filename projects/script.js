@@ -49,3 +49,25 @@ function pwFunction() {
         pw.type = "password";
     }
 }
+
+//Setup functions for scroll button
+window.onscroll = function() {
+    scrollFunction()
+};
+
+function scrollFunction() {
+    //get refs
+    let scrollButton = document.getElementById("scrollButton");
+    //if you scrol down more than 20px;
+    if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+        scrollButton.style.display = "block";
+    } else {
+        scrollButton.style.display = "none";
+    }
+}
+
+// Click on the scrollButton to scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
