@@ -220,6 +220,16 @@ input[type=text] {
     border-radius: 4px;
 }
 
+
+/* Make it so when we hover over the top button it changes color */
+
 #scrollButton:hover {
     background-color: #555;
+}
+
+
+/* change the font of the "show password" part */
+
+#showpw {
+    font-family: 'Teko';
 }
