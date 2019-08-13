@@ -1,140 +1,215 @@
-    /* This styles the logo */
-    
-    #logo {
-        display: flex;
-        justify-content: center;
-    }
-    /* This styles our image on the ourStory page */
-    
-    #storyImg {
-        justify-content: center;
-    }
-    /* This styles the site navigation bars */
-    
-    .nav {
-        display: flex;
-        justify-content: space-evenly;
-        flex-flow: row;
-        /* font-style: oblique; */
-        color: black;
-        font-family: 'Teko';
-        font-size: 25px;
-        text-decoration: none;
-    }
-    /* Style the horizontal line */
-    
-    hr {
-        width: 50%;
-    }
-    
-    #form {
-        display: flex;
-        justify-content: center;
-    }
-    /* This styles the placeholder text in our search bar */
-    
-    input::placeholder {
-        font-family: 'Teko';
-    }
-    /*This makes it so whatver the user types is in our chosen font*/
-    
-    input[type=text] {
-        font-family: 'Teko';
-    }
-    /* This styles our login button */
-    
-    #login {
-        font-family: 'Teko';
-    }
-    /* This makes it so when we hover on nav buttons, they turn tranparent */
-    
-    #navOptions:hover {
-        color: white;
-        opacity: 0.3;
-    }
-    /* This is the title of our text */
-    
-    #divOne {
-        margin: auto;
-        display: flex;
-        width: 500px;
-        justify-content: center;
-        flex-direction: column;
-    }
-    
-    #tag {
-        display: flex;
-        justify-content: center;
-        font-family: 'Teko';
-        /* text-decoration: underline; */
-        font-size: 25px;
-    }
-    
-    .contents {
-        display: flex;
-        font-size: 22px;
-        font-family: 'Teko';
-        width: 600px;
-        /*This wraps our text */
-        word-wrap: break-word;
-        justify-content: center;
-    }
-    /* This styles our links, or "a" tag */
-    
-    a {
-        color: black;
-        text-decoration: none;
-        /* This removes underlines from any of our links */
-    }
-    /* Style the "Meet the Team" section */
+/* This styles the logo */
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* This styles our image on the ourStory page */
+
+#storyImg {
+    justify-content: center;
+}
+
+
+/* This styles the site navigation bars */
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row;
+    /* font-style: oblique; */
+    color: black;
+    font-family: 'Teko';
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+/* Style the horizontal line */
+
+hr {
+    width: 50%;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* This styles the placeholder text in our search bar */
+
+input::placeholder {
+    font-family: 'Teko';
+}
+
+
+/*This makes it so whatver the user types is in our chosen font*/
+
+input[type=text] {
+    font-family: 'Teko';
+}
+
+
+/* This styles our login button */
+
+#login {
+    font-family: 'Teko';
+}
+
+
+/* This makes it so when we hover on nav buttons, they turn tranparent */
+
+#navOptions:hover {
+    color: white;
+    opacity: 0.3;
+}
+
+
+/* This is the title of our text */
+
+#divOne {
+    margin: auto;
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#tag {
+    display: flex;
+    justify-content: center;
+    font-family: 'Teko';
+    /* text-decoration: underline; */
+    font-size: 25px;
+}
+
+.contents {
+    display: flex;
+    font-size: 22px;
+    font-family: 'Teko';
+    width: 600px;
+    /*This wraps our text */
+    word-wrap: break-word;
+    justify-content: center;
+}
+
+
+/* This styles our links, or "a" tag */
+
+a {
+    color: black;
+    text-decoration: none;
+    /* This removes underlines from any of our links */
+}
+
+
+/* Style the "Meet the Team" section
     /* This ".nameDiv" block was taken from W3Schools ("https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_team") and adapted to fit this code. Yes I know what it does */
-    
-    .nameDiv {
-        /* float: left;
+
+
+/* .nameDiv { */
+
+
+/* float: left;
         width: 33.3%; */
-        font-family: 'Teko';
+
+
+/* font-family: 'Teko'; */
+
+
+}
+
+/* #storyImg { */
+
+/* margin: auto; */
+
+}
+
+/* #meetTeam { */
+
+/* text-align: center; */
+
+/* font-family: 'Teko'; */
+
+/* font-size: 25px; */
+
+/* flex-direction: column; */
+
+}
+
+/* #individuals { */
+
+/* display: flex; */
+
+/* justify-content: space-evenly; */
+
+/* }  */
+
+/* Style the scroll button */
+#scrollButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    font-family: 'Teko';
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* Make it so when we hover over the top button it changes color */
+#scrollButton:hover {
+    background-color: #555;
+}
+
+/* change the font of the "show password" part */
+#showpw {
+    font-family: 'Teko';
+}
+
+/* Style the text detailing our team positions */
+#title {
+    color: grey;
+}
+#meetTeam {
+    display: flex;
+    justify-content: center;
+    font-family: 'Teko';
+    /* font-size: 30px; */
+}
+
+/* This puts our profile columns next to each other */
+#column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    /* padding: 8px; */
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Teko';
+}
+
+/* Create a shadow effect */
+#card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    background-color: white;
+    color: black;
+}
+
+/* Stacks the blocks on top of each other when screen size changes */
+@media screen and (max-width: 650px) {
+    #column {
+        width: 100%;
+        display: block;
     }
-    
-    #storyImg {
-        margin: auto;
-    }
-    
-    #meetTeam {
-        text-align: center;
-        font-family: 'Teko';
-        font-size: 25px;
-        /* flex-direction: column; */
-    }
-    
-    #individuals {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    /* Style the scroll button */
-    
-    #scrollButton {
-        display: none;
-        position: fixed;
-        bottom: 20px;
-        right: 30px;
-        z-index: 99;
-        font-size: 18px;
-        font-family: 'Teko';
-        border: none;
-        outline: none;
-        background-color: black;
-        color: white;
-        cursor: pointer;
-        padding: 8px;
-        border-radius: 4px;
-    }
-    /* Make it so when we hover over the top button it changes color */
-    
-    #scrollButton:hover {
-        background-color: #555;
-    }
-    /* change the font of the "show password" part */
-    
-    #showpw {
-        font-family: 'Teko';
-    }
+}
