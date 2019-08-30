@@ -65,9 +65,10 @@ input[type=text] {
 
 /* This styles our login button */
 
-#login {
+
+/* #login {
     font-family: 'Teko';
-}
+} */
 
 
 /* COLLAPSIBLE STUFF BELOW */
@@ -230,6 +231,7 @@ input[type=text] {
 
 /* change the font of the "show password" part */
 
-#showpw {
+
+/* #showpw {
     font-family: 'Teko';
-}
+} */

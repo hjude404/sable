@@ -61,9 +61,10 @@ a {
 
 /* This styles our login button */
 
-#login {
+
+/* #login {
     font-family: 'Teko';
-}
+} */
 
 
 /* This styles the title of our contact info block */
@@ -113,9 +114,10 @@ a {
 
 /* change the font of the "show password" part */
 
-#showpw {
+
+/* #showpw {
     font-family: 'Teko';
-}
+} */
 
 
 /* Style the text detailing our team positions */

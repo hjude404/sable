@@ -65,9 +65,10 @@ input[type=text] {
 
 /* This styles our login button */
 
-#login {
+
+/* #login {
     font-family: 'Teko';
-}
+} */
 
 
 /* Style the img */
@@ -78,7 +79,7 @@ input[type=text] {
 }
 
 
-/* Style the Scroll-to-top button */
+/* Style our scroll to top button */
 
 #scrollButton {
     display: none;
@@ -107,6 +108,7 @@ input[type=text] {
 
 /* change the font of the "show password" part */
 
-#showpw {
+
+/* #showpw {
     font-family: 'Teko';
-}
+} */

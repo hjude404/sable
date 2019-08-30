@@ -55,9 +55,11 @@ input[type=text] {
 
 /* This styles our login button */
 
+
+/* 
 #login {
     font-family: 'Teko';
-}
+} */
 
 
 /* This makes it so when we hover on nav buttons, they turn tranparent */
@@ -172,9 +174,10 @@ a {
 }
 
 /* change the font of the "show password" part */
-#showpw {
+
+/* #showpw {
     font-family: 'Teko';
-}
+} */
 
 /* Style the text detailing our team positions */
 #title {
